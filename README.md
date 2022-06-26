@@ -1,34 +1,33 @@
-# Developing AI Agent with PEAS Description
+## EX.NO: 01
+## DATE: 04-04-2022
+## <p align="center">Developing AI Agent with PEAS Description</p>
 
 ## AIM
 
 To find the PEAS description for the given AI problem and develop an AI agent.
 
 ## THEORY
-Performance Measure: minimize energy consumption, maximize dirt pick up. Making this precise: one point for each clean square over lifetime of 1000 steps.
-
-Environment: two squares, dirt distribution unknown, assume accions are deterministic and environment is static (clean squares stay clean).
-
-Actuators: Right, Left, Up, Down, Suck.
-
-Sensors: agent can perceive its location and whether location is dirty.
+A vacuum-cleaner world with just two locations.
+<br/>Each location can be clean or dirty.
+<br/>The agent can move left or right and can clean the square that it occupies.
 
 ## PEAS DESCRIPTION
-Agent Type:- Vaccum cleaner.
-Performance Measure:- cleanliness, Number of Movements.
-Environment:- Rooms, Dust.
-Actuators:- Steering, Cleanliness.
-Sensors:- Location, Motion.
+| Agent Type  | Performance Measure | Environment  | Actuators | Sensors |
+| :-------------: | :-------------: | :-------------: | :-------------: | :-------------: |
+| Vaccum-Cleaner  | Cleanliness, Number of Movements  | Rooms  | Wheels, suction tool  | Location, Cleanliness |
+
+
 
 ## DESIGN STEPS
 ### STEP 1:
-Identifying the input:
+Identifying the input:  location and table of the vaccum world.
 
 ### STEP 2:
-Identifying the output:
+Identifying the output: action and performance of the agent.
 
 ### STEP 3:
-Developing the PEAS description:
+Developing the PEAS description: Performance measure is the unit to define the success of an agent. Performance varies with agents based on their different precepts.
+
 ### STEP 4:
 Implementing the AI agent
 
